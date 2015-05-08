@@ -1,0 +1,118 @@
+body{
+	background: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	margin: 1em auto;
+	width: 80%;
+	/*padding-bottom: 1em;*/
+
+}
+h1{
+	color: white;
+	font-size: 3em;
+	padding-bottom: .1em;
+	border-bottom: 2px solid yellow;
+}
+h2{
+	/*padding-top:.1em;*/
+	font-size: 1.5em;
+	color: white;
+	margin:-1em 0em 2em 0em;
+}
+h3{	
+	font-size: 2em;
+	margin-top:0em;
+	/*padding-bottom: .5em;*/
+	
+}
+h4{
+	font-size: .7em;
+	font-weight: bold;
+	padding: .2em;
+	margin-left: 1em;
+	font-family: helvetica;
+}
+p{
+	line-height: 1.5em;
+	font-size: .9em;
+	font-family: helvetica;
+}
+img{
+	width: 100%;
+}
+
+.main{
+	width: 80%;
+	margin: 1em auto;
+
+}
+.menu{
+	width: 100%;
+	overflow: auto;
+}
+.iets{
+	margin-top:1em;
+	width: 100%;
+	background: yellow;
+	height: 1em;
+}
+.zien, .horen, .proeven, .voelen {
+	margin-bottom:2%;
+	width:48%;
+	float: left;
+	color:white;
+}
+.zien, .proeven{
+	margin-right:2%; 
+}
+.proeven, .voelen{
+	margin-bottom: 2%;
+}
+.fotol{
+	width: 40%;
+	float: left;
+}
+.tekstl{
+	width: 57%;
+	margin-left:3%;
+	float: left;
+}
+.fotor{
+	width: 40%;
+	float: right;
+}
+.tekstr{
+	width: 57%;
+	margin-right:3%;
+	float: right;
+}
+a:hover{
+	opacity: .5;		
+}
+@media (max-width: 1200px){
+	p{
+		font-size: .8em;
+		line-height: 1.2em;
+	}
+}
+@media (max-width: 900px){
+	.main {
+		width: 95%;
+	}
+}
+
+@media (max-width: 800px){
+	.main {
+		width: 80%;
+	}
+	.zien, .horen, .proeven, .voelen {
+	margin-top:2em;
+	width:100%;
+	}
+	.iets{
+		height: 2em;
+		line-height: .8em;
+	}
+	
+}

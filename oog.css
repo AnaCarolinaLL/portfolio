@@ -1,0 +1,121 @@
+body{
+	background: black;
+	font-family: helvetica;
+}
+p{
+	font-size: .8em;
+	line-height: 1.2em;
+}
+.boven{
+	width: 80%;
+	margin: 2em auto;
+	overflow: auto;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	float: left;
+	width: 78%;
+	
+
+}
+.foto1{
+	width: 20%;
+	float: left;
+	padding-right: 1em;
+	border-right: 2px solid yellow; 
+}
+
+h1{
+	width: 70%;
+	float: left;
+	font-size: 2.5em;
+	color: white;
+	margin-left: .5em;
+	line-height: 3em;
+}
+.menu{
+	width: 20%;
+	margin-left: 2%;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: yellow ;
+}
+h4{
+	font-size: 1em;
+	color: white;
+	margin-bottom: .5em;
+}
+
+a:hover{
+	opacity: .5;		
+}
+.menukader{
+	width: 60%;
+}
+.fotomenu{
+	width: 48%;
+	margin: 1%;
+	float:left;
+}
+.onderwoord{
+	margin: .5em auto;
+	width: 80%;
+	background: grey;
+	height: 1em;
+}
+.main{
+	width: 80%;
+	margin: 2em auto;
+	overflow: auto;
+}
+.werk{
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 1em;
+}
+.img{
+	width: 25%;
+	margin-right: 2%;
+	float: left;
+}
+.info{
+	width: 50%;
+	color: white;
+	float: left;
+}
+h2{
+	font-size: 1.5em;
+	color: ;
+	font-weight: bold;
+	margin: 1em 0 .2em 0;
+}
+h3{
+	color: grey;
+	margin-bottom: 2em;
+}
+p{
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+span{
+	font-weight: bold;
+	color: yellow;
+}
+img{
+	width: 100%;
+}
+footer{
+	margin:2em auto;
+	width: 80%;
+	background: yellow;
+	height: 1em;
+
+}
+h5{
+	font-size: .7em;
+	font-weight: bold;
+	padding: .2em;
+	margin-left: 1em;
+}
