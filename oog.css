@@ -119,3 +119,13 @@ h5{
 	padding: .2em;
 	margin-left: 1em;
 }
+.zichtbaar{
+    display:inline-block;
+}
+.onzichtbaar{
+    display:none;
+}
+button {
+    background:grey;
+    color:yellow;
+}
