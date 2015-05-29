@@ -126,6 +126,8 @@ h5{
     display:none;
 }
 button {
-    background:grey;
-    color:yellow;
+    background:black;
+    border:1px solid yellow;
+    color:white;
+    display:block;
 }

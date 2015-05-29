@@ -25,10 +25,26 @@ var main = function () {
           $(".werk4").addClass("zichtbaar") 
         });
     }
-  	else {
+     else if ($(".werk4").hasClass("zichtbaar")){
   		$(".werk4").fadeOut(2000,
         function(){ 
           $(".werk4").removeClass("zichtbaar")
+          $(".werk5").fadeIn(2000)
+          $(".werk5").addClass("zichtbaar") 
+        });
+    }
+     else if ($(".werk5").hasClass("zichtbaar")){
+  		$(".werk5").fadeOut(2000,
+        function(){ 
+          $(".werk5").removeClass("zichtbaar")
+          $(".werk6").fadeIn(2000)
+          $(".werk6").addClass("zichtbaar") 
+        });
+    }
+  	else {
+  		$(".werk6").fadeOut(2000,
+        function(){ 
+          $(".werk6").removeClass("zichtbaar")
           $(".werk1").fadeIn(2000)
           $(".werk1").addClass("zichtbaar")
         });

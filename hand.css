@@ -21,7 +21,10 @@ header{
 	padding-right: 1em;
 	border-right: 2px solid yellow; 
 }
-
+.logo{
+    width:15%;
+    
+}
 h1{
 	width: 70%;
 	float: left;
@@ -79,8 +82,15 @@ a:hover{
 	float: left;
 }
 .info{
-	width: 73%;
+	width: 50%;
 	float:left;
+}
+.info2{
+    width:20%;
+    float:left;
+}
+.tussentitel{
+    color:yellow;
 }
 img{
 	width: 100%;
@@ -109,4 +119,10 @@ footer{
 	background: yellow;
 	height: 1em;
 
+}
+.hidden{
+    display:none;
+}
+.verschijn{
+    display:inline-block;
 }
